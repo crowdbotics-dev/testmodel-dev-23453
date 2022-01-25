@@ -12,3 +12,9 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+
+
+class Contact(models.Model):
+    "Generated Model"
+    address = models.TextField()
+    phone = models.TextField()
